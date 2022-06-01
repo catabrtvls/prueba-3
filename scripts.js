@@ -50,7 +50,7 @@ datos.forEach((d, i) => {
           } else {
               // impar
               document.querySelector("#trabajos").innerHTML +=
-              '<div class=container><div class="row g-0"><div class="col-lg-6"><a class="portfolio-item" href="#!"><div class="caption"><div class="caption-content"><div class="h2">' +
+              '<div class="container fluid p-0"><div class="row g-0"><div class="col-lg-6"><a class="portfolio-item" href="#!"><div class="caption"><div class="caption-content"><div class="h2">' +
               d.title +
               '</div><p class="mb-0">' +
               d.text +
